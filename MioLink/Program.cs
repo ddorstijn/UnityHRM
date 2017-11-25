@@ -14,6 +14,7 @@ namespace MioLink
         [STAThread]
         static void Main()
         {
+            AsynchronousSocketListener.StartListening();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
