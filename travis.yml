@@ -1,6 +1,6 @@
 sudo: required
 dist: trusty
-language: make
+language: cpp
 before_install:
 - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends build-essential texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended
 script:
