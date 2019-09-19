@@ -1,6 +1,10 @@
 sudo: required
 dist: trusty
-language: cpp
+language: generic
+cache:
+  directories:
+    - /tmp/texlive
+    - $HOME/.texlive
 before_install:
 - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends build-essential texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended texlive-generic-recommended latex-xcolor
 script:
@@ -8,3 +12,15 @@ script:
 - make 
 - cd ../../Unity/latex
 - make
+deploy:
+  provider: releases
+  api_key:
+    secure: add5c119d7f26b8662f6980ee885ad3b695d2447
+  file:
+    - ./refman.pdf
+  skip_cleanup: true
+  on:
+    tags: true
+    branch: master
+notifications:
+  email: false
