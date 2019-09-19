@@ -1,0 +1,7 @@
+<map id="SocketInterface.AsynchronousSocketListener.StartListening" name="SocketInterface.AsynchronousSocketListener.StartListening">
+<area shape="rect" id="node1" title="Open port and start listening." alt="" coords="5,136,204,177"/>
+<area shape="rect" id="node2" href="$class_socket_interface_1_1_asynchronous_socket_listener.html#a1b859089fa04e909d1ced1ef855affb7" title="TCP handsake to confirm packets" alt="" coords="252,107,456,148"/>
+<area shape="rect" id="node5" href="$class_socket_interface_1_1_asynchronous_socket_listener.html#a58dd62603357bb20dc3cd29da729ba69" title="Close the server." alt="" coords="997,89,1196,131"/>
+<area shape="rect" id="node3" href="$class_socket_interface_1_1_asynchronous_socket_listener.html#abfc92b91dc4f43aba9da77de547b6077" title="Handle the received packet from the callback and start listening again." alt="" coords="504,31,703,72"/>
+<area shape="rect" id="node4" href="$class_socket_interface_1_1_asynchronous_socket_listener.html#ada33798cdb73424b2d86eb4809c804d0" title="Read the message data that got send." alt="" coords="751,5,949,47"/>
+</map>

@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace MioLink
 {
+    /// <summary>
+    /// Entry class.
+    /// </summary>
     static class Program
     {
         /// <summary>
@@ -14,7 +14,6 @@ namespace MioLink
         [STAThread]
         static void Main()
         {
-            AsynchronousSocketListener.StartListening();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

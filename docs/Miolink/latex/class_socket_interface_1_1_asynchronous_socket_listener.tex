@@ -1,0 +1,166 @@
+\hypertarget{class_socket_interface_1_1_asynchronous_socket_listener}{}\doxysection{Socket\+Interface.\+Asynchronous\+Socket\+Listener Class Reference}
+\label{class_socket_interface_1_1_asynchronous_socket_listener}\index{SocketInterface.AsynchronousSocketListener@{SocketInterface.AsynchronousSocketListener}}
+
+
+Server communication. Listener and sender of packets.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_socket_interface_1_1_asynchronous_socket_listener_a8841d97147e79e169bd6ee94654d2a65}{Start\+Listening}} ()
+\begin{DoxyCompactList}\small\item\em Open port and start listening. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_socket_interface_1_1_asynchronous_socket_listener_a1b859089fa04e909d1ced1ef855affb7}{Accept\+Callback}} (I\+Async\+Result ar)
+\begin{DoxyCompactList}\small\item\em T\+CP handsake to confirm packets \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_socket_interface_1_1_asynchronous_socket_listener_abfc92b91dc4f43aba9da77de547b6077}{Receive}} ()
+\begin{DoxyCompactList}\small\item\em Handle the received packet from the callback and start listening again. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_socket_interface_1_1_asynchronous_socket_listener_ada33798cdb73424b2d86eb4809c804d0}{Read\+Callback}} (I\+Async\+Result ar)
+\begin{DoxyCompactList}\small\item\em Read the message data that got send. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_socket_interface_1_1_asynchronous_socket_listener_a202c3db78ba26d03bb4681b808b8f9e6}{Send}} (string data)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{namespace_encrypt}{Encrypt}} and send the data packet. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_socket_interface_1_1_asynchronous_socket_listener_a58dd62603357bb20dc3cd29da729ba69}{Shutdown}} ()
+\begin{DoxyCompactList}\small\item\em Close the server. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Server communication. Listener and sender of packets. 
+
+
+
+Definition at line 23 of file Async\+Socket\+Interface.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_socket_interface_1_1_asynchronous_socket_listener_a1b859089fa04e909d1ced1ef855affb7}\label{class_socket_interface_1_1_asynchronous_socket_listener_a1b859089fa04e909d1ced1ef855affb7}} 
+\index{SocketInterface.AsynchronousSocketListener@{SocketInterface.AsynchronousSocketListener}!AcceptCallback@{AcceptCallback}}
+\index{AcceptCallback@{AcceptCallback}!SocketInterface.AsynchronousSocketListener@{SocketInterface.AsynchronousSocketListener}}
+\doxysubsubsection{\texorpdfstring{AcceptCallback()}{AcceptCallback()}}
+{\footnotesize\ttfamily static void Socket\+Interface.\+Asynchronous\+Socket\+Listener.\+Accept\+Callback (\begin{DoxyParamCaption}\item[{I\+Async\+Result}]{ar }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+T\+CP handsake to confirm packets 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ar} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 59 of file Async\+Socket\+Interface.\+cs.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_socket_interface_1_1_asynchronous_socket_listener_a1b859089fa04e909d1ced1ef855affb7_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_socket_interface_1_1_asynchronous_socket_listener_ada33798cdb73424b2d86eb4809c804d0}\label{class_socket_interface_1_1_asynchronous_socket_listener_ada33798cdb73424b2d86eb4809c804d0}} 
+\index{SocketInterface.AsynchronousSocketListener@{SocketInterface.AsynchronousSocketListener}!ReadCallback@{ReadCallback}}
+\index{ReadCallback@{ReadCallback}!SocketInterface.AsynchronousSocketListener@{SocketInterface.AsynchronousSocketListener}}
+\doxysubsubsection{\texorpdfstring{ReadCallback()}{ReadCallback()}}
+{\footnotesize\ttfamily static void Socket\+Interface.\+Asynchronous\+Socket\+Listener.\+Read\+Callback (\begin{DoxyParamCaption}\item[{I\+Async\+Result}]{ar }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Read the message data that got send. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ar} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 104 of file Async\+Socket\+Interface.\+cs.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_socket_interface_1_1_asynchronous_socket_listener_ada33798cdb73424b2d86eb4809c804d0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_socket_interface_1_1_asynchronous_socket_listener_abfc92b91dc4f43aba9da77de547b6077}\label{class_socket_interface_1_1_asynchronous_socket_listener_abfc92b91dc4f43aba9da77de547b6077}} 
+\index{SocketInterface.AsynchronousSocketListener@{SocketInterface.AsynchronousSocketListener}!Receive@{Receive}}
+\index{Receive@{Receive}!SocketInterface.AsynchronousSocketListener@{SocketInterface.AsynchronousSocketListener}}
+\doxysubsubsection{\texorpdfstring{Receive()}{Receive()}}
+{\footnotesize\ttfamily static void Socket\+Interface.\+Asynchronous\+Socket\+Listener.\+Receive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Handle the received packet from the callback and start listening again. 
+
+
+
+Definition at line 79 of file Async\+Socket\+Interface.\+cs.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_socket_interface_1_1_asynchronous_socket_listener_abfc92b91dc4f43aba9da77de547b6077_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_socket_interface_1_1_asynchronous_socket_listener_a202c3db78ba26d03bb4681b808b8f9e6}\label{class_socket_interface_1_1_asynchronous_socket_listener_a202c3db78ba26d03bb4681b808b8f9e6}} 
+\index{SocketInterface.AsynchronousSocketListener@{SocketInterface.AsynchronousSocketListener}!Send@{Send}}
+\index{Send@{Send}!SocketInterface.AsynchronousSocketListener@{SocketInterface.AsynchronousSocketListener}}
+\doxysubsubsection{\texorpdfstring{Send()}{Send()}}
+{\footnotesize\ttfamily static void Socket\+Interface.\+Asynchronous\+Socket\+Listener.\+Send (\begin{DoxyParamCaption}\item[{string}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\mbox{\hyperlink{namespace_encrypt}{Encrypt}} and send the data packet. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & The data to be send as string.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 154 of file Async\+Socket\+Interface.\+cs.
+
+\mbox{\Hypertarget{class_socket_interface_1_1_asynchronous_socket_listener_a58dd62603357bb20dc3cd29da729ba69}\label{class_socket_interface_1_1_asynchronous_socket_listener_a58dd62603357bb20dc3cd29da729ba69}} 
+\index{SocketInterface.AsynchronousSocketListener@{SocketInterface.AsynchronousSocketListener}!Shutdown@{Shutdown}}
+\index{Shutdown@{Shutdown}!SocketInterface.AsynchronousSocketListener@{SocketInterface.AsynchronousSocketListener}}
+\doxysubsubsection{\texorpdfstring{Shutdown()}{Shutdown()}}
+{\footnotesize\ttfamily static void Socket\+Interface.\+Asynchronous\+Socket\+Listener.\+Shutdown (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Close the server. 
+
+
+
+Definition at line 197 of file Async\+Socket\+Interface.\+cs.
+
+\mbox{\Hypertarget{class_socket_interface_1_1_asynchronous_socket_listener_a8841d97147e79e169bd6ee94654d2a65}\label{class_socket_interface_1_1_asynchronous_socket_listener_a8841d97147e79e169bd6ee94654d2a65}} 
+\index{SocketInterface.AsynchronousSocketListener@{SocketInterface.AsynchronousSocketListener}!StartListening@{StartListening}}
+\index{StartListening@{StartListening}!SocketInterface.AsynchronousSocketListener@{SocketInterface.AsynchronousSocketListener}}
+\doxysubsubsection{\texorpdfstring{StartListening()}{StartListening()}}
+{\footnotesize\ttfamily static void Socket\+Interface.\+Asynchronous\+Socket\+Listener.\+Start\+Listening (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Open port and start listening. 
+
+
+
+Definition at line 31 of file Async\+Socket\+Interface.\+cs.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_socket_interface_1_1_asynchronous_socket_listener_a8841d97147e79e169bd6ee94654d2a65_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Async\+Socket\+Interface.\+cs\end{DoxyCompactItemize}

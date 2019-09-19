@@ -1,0 +1,5 @@
+<map id="SocketInterface.AsynchronousSocketListener.Receive" name="SocketInterface.AsynchronousSocketListener.Receive">
+<area shape="rect" id="node1" title="Handle the received packet from the callback and start listening again." alt="" coords="5,5,204,47"/>
+<area shape="rect" id="node2" href="$class_socket_interface_1_1_asynchronous_socket_listener.html#ada33798cdb73424b2d86eb4809c804d0" title="Read the message data that got send." alt="" coords="252,5,451,47"/>
+<area shape="rect" id="node3" href="$class_socket_interface_1_1_asynchronous_socket_listener.html#a58dd62603357bb20dc3cd29da729ba69" title="Close the server." alt="" coords="499,35,697,76"/>
+</map>

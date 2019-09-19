@@ -1,0 +1,6 @@
+<map id="SocketInterface.AsynchronousSocketListener.AcceptCallback" name="SocketInterface.AsynchronousSocketListener.AcceptCallback">
+<area shape="rect" id="node1" title="TCP handsake to confirm packets" alt="" coords="5,73,209,115"/>
+<area shape="rect" id="node2" href="$class_socket_interface_1_1_asynchronous_socket_listener.html#abfc92b91dc4f43aba9da77de547b6077" title="Handle the received packet from the callback and start listening again." alt="" coords="257,31,456,72"/>
+<area shape="rect" id="node4" href="$class_socket_interface_1_1_asynchronous_socket_listener.html#a58dd62603357bb20dc3cd29da729ba69" title="Close the server." alt="" coords="751,64,949,105"/>
+<area shape="rect" id="node3" href="$class_socket_interface_1_1_asynchronous_socket_listener.html#ada33798cdb73424b2d86eb4809c804d0" title="Read the message data that got send." alt="" coords="504,5,703,47"/>
+</map>

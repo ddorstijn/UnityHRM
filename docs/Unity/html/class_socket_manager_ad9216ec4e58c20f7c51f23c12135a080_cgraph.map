@@ -1,0 +1,4 @@
+<map id="SocketManager.StartClient" name="SocketManager.StartClient">
+<area shape="rect" id="node1" title="Start listener for updates from MioLink." alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node2" href="$class_socket_manager.html#aa0b4229815000cc6bf69fdda9cef9652" title="Close the server." alt="" coords="232,5,407,32"/>
+</map>

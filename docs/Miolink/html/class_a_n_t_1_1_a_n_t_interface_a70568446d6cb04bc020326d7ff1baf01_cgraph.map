@@ -1,0 +1,4 @@
+<map id="ANT.ANTInterface.Init" name="ANT.ANTInterface.Init">
+<area shape="rect" id="node1" title="Initialize parameters for a HRM device connection." alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node2" href="$class_a_n_t_1_1_a_n_t_interface.html#af67a398842aac26e886449a8af91b157" title="Start ANT+ driver and open ports for connection." alt="" coords="200,5,357,32"/>
+</map>
